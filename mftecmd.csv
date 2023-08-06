@@ -1,0 +1,160 @@
+Name,Extension,EntryNumber,SequenceNumber,ParentEntryNumber,ParentSequenceNumber,ParentPath,UpdateSequenceNumber,UpdateTimestamp,UpdateReasons,FileAttributes,OffsetToData,SourceFile
+cat.jpg,.jpg,36,1,5,5,,0,2016-01-29 21:27:30.7578456,FileCreate,Archive,0,Z:\usn-recons\$J
+.,,5,5,5,5,,1,2016-01-29 21:27:30.7690779,ObjectIdChange,Hidden|System|Directory,720,Z:\usn-recons\$J
+cat.jpg,.jpg,36,1,5,5,,80,2016-01-29 21:27:30.7578456,FileCreate|Close,Archive,80,Z:\usn-recons\$J
+cat.jpg,.jpg,36,1,5,5,,160,2016-01-29 21:27:30.7578456,DataExtend,Archive,160,Z:\usn-recons\$J
+cat.jpg,.jpg,36,1,5,5,,240,2016-01-29 21:27:30.7578456,DataOverwrite|DataExtend,Archive,240,Z:\usn-recons\$J
+cat.jpg,.jpg,36,1,5,5,,320,2016-01-29 21:27:30.7578456,DataOverwrite|DataExtend|StreamChange,Archive,320,Z:\usn-recons\$J
+cat.jpg,.jpg,36,1,5,5,,400,2016-01-29 21:27:30.7578456,DataOverwrite|DataExtend|NamedDataExtend|StreamChange,Archive,400,Z:\usn-recons\$J
+cat.jpg,.jpg,36,1,5,5,,480,2016-01-29 21:27:30.7578456,DataOverwrite|DataExtend|NamedDataOverwrite|NamedDataExtend|StreamChange,Archive,480,Z:\usn-recons\$J
+cat.jpg,.jpg,36,1,5,5,,560,2016-01-29 21:27:30.7578456,DataOverwrite|DataExtend|NamedDataOverwrite|NamedDataExtend|BasicInfoChange|StreamChange,Archive,560,Z:\usn-recons\$J
+cat.jpg,.jpg,36,1,5,5,,640,2016-01-29 21:27:30.7578456,DataOverwrite|DataExtend|NamedDataOverwrite|NamedDataExtend|BasicInfoChange|StreamChange|Close,Archive,640,Z:\usn-recons\$J
+.,,5,5,5,5,,720,2016-01-29 21:27:30.7690779,ObjectIdChange,Hidden|System|Directory,720,Z:\usn-recons\$J
+$RECYCLE.BIN,.BIN,37,1,5,5,,784,2016-01-29 21:27:30.8469980,FileCreate,Directory,784,Z:\usn-recons\$J
+$RECYCLE.BIN,.BIN,37,1,5,5,,872,2016-01-29 21:27:30.8469980,FileCreate|Close,Directory,872,Z:\usn-recons\$J
+$RECYCLE.BIN,.BIN,37,1,5,5,,960,2016-01-29 21:27:30.8469980,BasicInfoChange,Hidden|System|Directory,960,Z:\usn-recons\$J
+$RECYCLE.BIN,.BIN,37,1,5,5,,1048,2016-01-29 21:27:30.8469980,BasicInfoChange|Close,Hidden|System|Directory,1048,Z:\usn-recons\$J
+S-1-5-21-157005759-726012785-4291476054-1001,,38,1,37,1,,1136,2016-01-29 21:27:30.8469980,FileCreate,Directory,1136,Z:\usn-recons\$J
+S-1-5-21-157005759-726012785-4291476054-1001,,38,1,37,1,,1288,2016-01-29 21:27:30.8469980,FileCreate|Close,Directory,1288,Z:\usn-recons\$J
+S-1-5-21-157005759-726012785-4291476054-1001,,38,1,37,1,,1440,2016-01-29 21:27:30.8469980,BasicInfoChange,Hidden|System|Directory,1440,Z:\usn-recons\$J
+S-1-5-21-157005759-726012785-4291476054-1001,,38,1,37,1,,1592,2016-01-29 21:27:30.8469980,BasicInfoChange|Close,Hidden|System|Directory,1592,Z:\usn-recons\$J
+desktop.ini,.ini,39,1,38,1,,1744,2016-01-29 21:27:30.8469980,FileCreate,Archive,1744,Z:\usn-recons\$J
+desktop.ini,.ini,39,1,38,1,,1832,2016-01-29 21:27:30.8469980,DataExtend|FileCreate,Archive,1832,Z:\usn-recons\$J
+desktop.ini,.ini,39,1,38,1,,1920,2016-01-29 21:27:30.8581440,DataExtend|FileCreate|Close,Archive,1920,Z:\usn-recons\$J
+desktop.ini,.ini,39,1,38,1,,2008,2016-01-29 21:27:30.8581440,BasicInfoChange,Hidden|System,2008,Z:\usn-recons\$J
+desktop.ini,.ini,39,1,38,1,,2096,2016-01-29 21:27:30.8581440,BasicInfoChange|Close,Hidden|System,2096,Z:\usn-recons\$J
+desktop.ini,.ini,39,1,38,1,,2184,2016-01-29 21:27:30.8581440,DataExtend,Hidden|System,2184,Z:\usn-recons\$J
+desktop.ini,.ini,39,1,38,1,,2272,2016-01-29 21:27:30.8581440,DataExtend|Close,Hidden|System|Archive,2272,Z:\usn-recons\$J
+target.jpg,.jpg,40,1,5,5,,2424,2016-01-29 21:27:37.9403054,FileCreate,Archive,2424,Z:\usn-recons\$J
+target.jpg,.jpg,40,1,5,5,,2504,2016-01-29 21:27:37.9403054,DataExtend|FileCreate,Archive,2504,Z:\usn-recons\$J
+target.jpg,.jpg,40,1,5,5,,2584,2016-01-29 21:27:37.9403054,DataOverwrite|DataExtend|FileCreate,Archive,2584,Z:\usn-recons\$J
+target.jpg,.jpg,40,1,5,5,,2664,2016-01-29 21:27:37.9526224,DataOverwrite|DataExtend|FileCreate|StreamChange,Archive,2664,Z:\usn-recons\$J
+target.jpg,.jpg,40,1,5,5,,2744,2016-01-29 21:27:37.9526224,DataOverwrite|DataExtend|NamedDataExtend|FileCreate|StreamChange,Archive,2744,Z:\usn-recons\$J
+target.jpg,.jpg,40,1,5,5,,2824,2016-01-29 21:27:37.9526224,DataOverwrite|DataExtend|NamedDataOverwrite|NamedDataExtend|FileCreate|StreamChange,Archive,2824,Z:\usn-recons\$J
+target.jpg,.jpg,40,1,5,5,,2904,2016-01-29 21:27:37.9526224,DataOverwrite|DataExtend|NamedDataOverwrite|NamedDataExtend|FileCreate|BasicInfoChange|StreamChange,Archive,2904,Z:\usn-recons\$J
+target.jpg,.jpg,40,1,5,5,,2984,2016-01-29 21:27:37.9526224,DataOverwrite|DataExtend|NamedDataOverwrite|NamedDataExtend|FileCreate|BasicInfoChange|StreamChange|Close,Archive,2984,Z:\usn-recons\$J
+New Text Document.txt,.txt,41,1,5,5,,3064,2016-01-29 21:27:42.0091077,FileCreate,Archive,3064,Z:\usn-recons\$J
+New Text Document.txt,.txt,41,1,5,5,,3168,2016-01-29 21:27:42.0091077,FileCreate|Close,Archive,3168,Z:\usn-recons\$J
+New Text Document.txt,.txt,41,1,5,5,,3272,2016-01-29 21:27:45.3404333,RenameOldName,Archive,3272,Z:\usn-recons\$J
+secret.txt,.txt,41,1,5,5,,3376,2016-01-29 21:27:45.3404333,RenameNewName,Archive,3376,Z:\usn-recons\$J
+secret.txt,.txt,41,1,5,5,,3456,2016-01-29 21:27:45.3404333,RenameNewName|Close,Archive,3456,Z:\usn-recons\$J
+secret.txt,.txt,41,1,5,5,,3536,2016-01-29 21:27:45.4344401,ObjectIdChange,Archive,3536,Z:\usn-recons\$J
+secret.txt,.txt,41,1,5,5,,3616,2016-01-29 21:27:45.4344401,ObjectIdChange|Close,Archive,3616,Z:\usn-recons\$J
+secret.txt,.txt,41,1,5,5,,3696,2016-01-29 21:27:51.7793446,DataExtend,Archive,3696,Z:\usn-recons\$J
+secret.txt,.txt,41,1,5,5,,3776,2016-01-29 21:27:51.7897501,DataExtend|Close,Archive,3776,Z:\usn-recons\$J
+secret.txt,.txt,41,1,5,5,,3856,2016-01-29 21:28:06.5511786,FileDelete|Close,Archive,3856,Z:\usn-recons\$J
+New Text Document.txt,.txt,41,2,5,5,,3936,2016-01-29 21:28:11.5271276,FileCreate,Archive,3936,Z:\usn-recons\$J
+New Text Document.txt,.txt,41,2,5,5,,4096,2016-01-29 21:28:11.5271276,FileCreate|Close,Archive,4096,Z:\usn-recons\$J
+New Text Document.txt,.txt,41,2,5,5,,4200,2016-01-29 21:28:15.8084173,RenameOldName,Archive,4200,Z:\usn-recons\$J
+password.txt,.txt,41,2,5,5,,4304,2016-01-29 21:28:15.8084173,RenameNewName,Archive,4304,Z:\usn-recons\$J
+password.txt,.txt,41,2,5,5,,4392,2016-01-29 21:28:15.8084173,RenameNewName|Close,Archive,4392,Z:\usn-recons\$J
+password.txt,.txt,41,2,5,5,,4480,2016-01-29 21:28:15.9157046,ObjectIdChange,Archive,4480,Z:\usn-recons\$J
+password.txt,.txt,41,2,5,5,,4568,2016-01-29 21:28:15.9157046,ObjectIdChange|Close,Archive,4568,Z:\usn-recons\$J
+password.txt,.txt,41,2,5,5,,4656,2016-01-29 21:28:56.6524245,DataExtend,Archive,4656,Z:\usn-recons\$J
+password.txt,.txt,41,2,5,5,,4744,2016-01-29 21:28:56.6524245,DataExtend|Close,Archive,4744,Z:\usn-recons\$J
+password.txt,.txt,41,2,5,5,,4832,2016-01-29 21:29:12.7959327,FileDelete|Close,Archive,4832,Z:\usn-recons\$J
+target.jpg,.jpg,40,1,5,5,,4920,2016-01-29 21:29:12.7959327,FileDelete|Close,Archive,4920,Z:\usn-recons\$J
+WPSettings.dat,.dat,40,2,33,1,,5000,2023-07-28 20:32:23.9263596,FileCreate,Archive,5000,Z:\usn-recons\$J
+WPSettings.dat,.dat,40,2,33,1,,5088,2023-07-28 20:32:23.9283282,DataExtend|FileCreate,Archive,5088,Z:\usn-recons\$J
+WPSettings.dat,.dat,40,2,33,1,,5176,2023-07-28 20:32:23.9283282,DataExtend|FileCreate|Close,Archive,5176,Z:\usn-recons\$J
+New folder,,41,3,5,5,,5264,2023-07-28 20:32:52.0676551,FileCreate,Directory,5264,Z:\usn-recons\$J
+New folder,,41,3,5,5,,5344,2023-07-28 20:32:52.0676551,FileCreate|Close,Directory,5344,Z:\usn-recons\$J
+S-1-5-21-2089799653-3069778406-3190474760-500,,42,1,37,1,,5424,2023-07-28 20:32:52.1844416,FileCreate,Directory,5424,Z:\usn-recons\$J
+S-1-5-21-2089799653-3069778406-3190474760-500,,42,1,37,1,,5576,2023-07-28 20:32:52.1844416,FileCreate|Close,Directory,5576,Z:\usn-recons\$J
+S-1-5-21-2089799653-3069778406-3190474760-500,,42,1,37,1,,5728,2023-07-28 20:32:52.1844416,BasicInfoChange,Hidden|System|Directory,5728,Z:\usn-recons\$J
+S-1-5-21-2089799653-3069778406-3190474760-500,,42,1,37,1,,5880,2023-07-28 20:32:52.1844416,BasicInfoChange|Close,Hidden|System|Directory,5880,Z:\usn-recons\$J
+Desktop_.ini,.ini,43,1,42,1,,6032,2023-07-28 20:32:52.1844416,FileCreate,Archive,6032,Z:\usn-recons\$J
+desktop.ini,.ini,43,1,42,1,,6120,2023-07-28 20:32:52.1844416,DataExtend|FileCreate,Archive,6120,Z:\usn-recons\$J
+desktop.ini,.ini,43,1,42,1,,6208,2023-07-28 20:32:52.1844416,DataExtend|FileCreate|Close,Archive,6208,Z:\usn-recons\$J
+desktop.ini,.ini,43,1,42,1,,6296,2023-07-28 20:32:52.1844416,BasicInfoChange,Hidden|System,6296,Z:\usn-recons\$J
+desktop.ini,.ini,43,1,42,1,,6384,2023-07-28 20:32:52.1844416,BasicInfoChange|Close,Hidden|System,6384,Z:\usn-recons\$J
+desktop.ini,.ini,43,1,42,1,,6472,2023-07-28 20:32:52.1844416,DataExtend,Hidden|System,6472,Z:\usn-recons\$J
+desktop.ini,.ini,43,1,42,1,,6560,2023-07-28 20:32:52.1844416,DataExtend|Close,Hidden|System|Archive,6560,Z:\usn-recons\$J
+New folder,,41,3,5,5,,6648,2023-07-28 20:33:00.5367497,RenameOldName,Directory,6648,Z:\usn-recons\$J
+folder1,,41,3,5,5,,6728,2023-07-28 20:33:00.5367497,RenameNewName,Directory,6728,Z:\usn-recons\$J
+folder1,,41,3,5,5,,6808,2023-07-28 20:33:00.5367497,RenameNewName|Close,Directory,6808,Z:\usn-recons\$J
+folder1,,41,3,5,5,,6888,2023-07-28 20:33:00.6559932,ObjectIdChange,Directory,6888,Z:\usn-recons\$J
+folder1,,41,3,5,5,,6968,2023-07-28 20:33:00.6559932,ObjectIdChange|Close,Directory,6968,Z:\usn-recons\$J
+New Text Document.txt,.txt,44,1,41,3,,7048,2023-07-28 20:33:10.8399975,FileCreate,Archive,7048,Z:\usn-recons\$J
+New Text Document.txt,.txt,44,1,41,3,,7152,2023-07-28 20:33:10.8399975,FileCreate|Close,Archive,7152,Z:\usn-recons\$J
+New Text Document.txt,.txt,44,1,41,3,,7256,2023-07-28 20:33:20.5136984,RenameOldName,Archive,7256,Z:\usn-recons\$J
+text1.txt,.txt,44,1,41,3,,7360,2023-07-28 20:33:20.5136984,RenameNewName,Archive,7360,Z:\usn-recons\$J
+text1.txt,.txt,44,1,41,3,,7440,2023-07-28 20:33:20.5136984,RenameNewName|Close,Archive,7440,Z:\usn-recons\$J
+text1.txt,.txt,44,1,41,3,,7520,2023-07-28 20:33:20.5923388,ObjectIdChange,Archive,7520,Z:\usn-recons\$J
+text1.txt,.txt,44,1,41,3,,7600,2023-07-28 20:33:20.5923388,ObjectIdChange|Close,Archive,7600,Z:\usn-recons\$J
+New Text Document.txt,.txt,45,1,41,3,,7680,2023-07-28 20:33:39.9729603,FileCreate,Archive,7680,Z:\usn-recons\$J
+New Text Document.txt,.txt,45,1,41,3,,7784,2023-07-28 20:33:39.9729603,FileCreate|Close,Archive,7784,Z:\usn-recons\$J
+New Text Document.txt,.txt,45,1,41,3,,7888,2023-07-28 20:33:45.0429624,RenameOldName,Archive,7888,Z:\usn-recons\$J
+text2.txt,.txt,45,1,41,3,,7992,2023-07-28 20:33:45.0429624,RenameNewName,Archive,7992,Z:\usn-recons\$J
+text2.txt,.txt,45,1,41,3,,8072,2023-07-28 20:33:45.0429624,RenameNewName|Close,Archive,8072,Z:\usn-recons\$J
+text2.txt,.txt,45,1,41,3,,8192,2023-07-28 20:33:45.1581422,ObjectIdChange,Archive,8192,Z:\usn-recons\$J
+text2.txt,.txt,45,1,41,3,,8272,2023-07-28 20:33:45.1581422,ObjectIdChange|Close,Archive,8272,Z:\usn-recons\$J
+New Text Document.txt,.txt,46,1,41,3,,8352,2023-07-28 20:33:48.6319068,FileCreate,Archive,8352,Z:\usn-recons\$J
+New Text Document.txt,.txt,46,1,41,3,,8456,2023-07-28 20:33:48.6319068,FileCreate|Close,Archive,8456,Z:\usn-recons\$J
+New Text Document.txt,.txt,46,1,41,3,,8560,2023-07-28 20:33:51.6850705,RenameOldName,Archive,8560,Z:\usn-recons\$J
+text3.txt,.txt,46,1,41,3,,8664,2023-07-28 20:33:51.6850705,RenameNewName,Archive,8664,Z:\usn-recons\$J
+text3.txt,.txt,46,1,41,3,,8744,2023-07-28 20:33:51.6850705,RenameNewName|Close,Archive,8744,Z:\usn-recons\$J
+text3.txt,.txt,46,1,41,3,,8824,2023-07-28 20:33:51.7849846,ObjectIdChange,Archive,8824,Z:\usn-recons\$J
+text3.txt,.txt,46,1,41,3,,8904,2023-07-28 20:33:51.7849846,ObjectIdChange|Close,Archive,8904,Z:\usn-recons\$J
+New folder,,47,1,41,3,,8984,2023-07-28 20:34:07.9767268,FileCreate,Directory,8984,Z:\usn-recons\$J
+New folder,,47,1,41,3,,9064,2023-07-28 20:34:07.9767268,FileCreate|Close,Directory,9064,Z:\usn-recons\$J
+New folder,,47,1,41,3,,9144,2023-07-28 20:34:22.9694420,RenameOldName,Directory,9144,Z:\usn-recons\$J
+folder2,,47,1,41,3,,9224,2023-07-28 20:34:22.9694420,RenameNewName,Directory,9224,Z:\usn-recons\$J
+folder2,,47,1,41,3,,9304,2023-07-28 20:34:22.9694420,RenameNewName|Close,Directory,9304,Z:\usn-recons\$J
+folder2,,47,1,41,3,,9384,2023-07-28 20:34:23.0989674,ObjectIdChange,Directory,9384,Z:\usn-recons\$J
+folder2,,47,1,41,3,,9464,2023-07-28 20:34:23.0989674,ObjectIdChange|Close,Directory,9464,Z:\usn-recons\$J
+New Text Document.txt,.txt,48,1,47,1,,9544,2023-07-28 20:34:29.3071396,FileCreate,Archive,9544,Z:\usn-recons\$J
+New Text Document.txt,.txt,48,1,47,1,,9648,2023-07-28 20:34:29.3071396,FileCreate|Close,Archive,9648,Z:\usn-recons\$J
+New Text Document.txt,.txt,48,1,47,1,,9752,2023-07-28 20:34:35.9072048,RenameOldName,Archive,9752,Z:\usn-recons\$J
+text1.txt,.txt,48,1,47,1,,9856,2023-07-28 20:34:35.9072048,RenameNewName,Archive,9856,Z:\usn-recons\$J
+text1.txt,.txt,48,1,47,1,,9936,2023-07-28 20:34:35.9072048,RenameNewName|Close,Archive,9936,Z:\usn-recons\$J
+text1.txt,.txt,48,1,47,1,,10016,2023-07-28 20:34:35.9925524,ObjectIdChange,Archive,10016,Z:\usn-recons\$J
+text1.txt,.txt,48,1,47,1,,10096,2023-07-28 20:34:35.9925524,ObjectIdChange|Close,Archive,10096,Z:\usn-recons\$J
+New Text Document.txt,.txt,49,1,47,1,,10176,2023-07-28 20:34:39.2464464,FileCreate,Archive,10176,Z:\usn-recons\$J
+New Text Document.txt,.txt,49,1,47,1,,10280,2023-07-28 20:34:39.2464464,FileCreate|Close,Archive,10280,Z:\usn-recons\$J
+New Text Document.txt,.txt,49,1,47,1,,10384,2023-07-28 20:34:43.7652556,RenameOldName,Archive,10384,Z:\usn-recons\$J
+text2.txt,.txt,49,1,47,1,,10488,2023-07-28 20:34:43.7652556,RenameNewName,Archive,10488,Z:\usn-recons\$J
+text2.txt,.txt,49,1,47,1,,10568,2023-07-28 20:34:43.7652556,RenameNewName|Close,Archive,10568,Z:\usn-recons\$J
+text2.txt,.txt,49,1,47,1,,10648,2023-07-28 20:34:43.9169277,ObjectIdChange,Archive,10648,Z:\usn-recons\$J
+text2.txt,.txt,49,1,47,1,,10728,2023-07-28 20:34:43.9169277,ObjectIdChange|Close,Archive,10728,Z:\usn-recons\$J
+New Text Document.txt,.txt,50,1,47,1,,10808,2023-07-28 20:34:46.9771399,FileCreate,Archive,10808,Z:\usn-recons\$J
+New Text Document.txt,.txt,50,1,47,1,,10912,2023-07-28 20:34:46.9771399,FileCreate|Close,Archive,10912,Z:\usn-recons\$J
+New Text Document.txt,.txt,50,1,47,1,,11016,2023-07-28 20:34:51.3348047,RenameOldName,Archive,11016,Z:\usn-recons\$J
+text3.txt,.txt,50,1,47,1,,11120,2023-07-28 20:34:51.3348047,RenameNewName,Archive,11120,Z:\usn-recons\$J
+text3.txt,.txt,50,1,47,1,,11200,2023-07-28 20:34:51.3348047,RenameNewName|Close,Archive,11200,Z:\usn-recons\$J
+text3.txt,.txt,50,1,47,1,,11280,2023-07-28 20:34:51.4464422,ObjectIdChange,Archive,11280,Z:\usn-recons\$J
+text3.txt,.txt,50,1,47,1,,11360,2023-07-28 20:34:51.4464422,ObjectIdChange|Close,Archive,11360,Z:\usn-recons\$J
+New folder,,51,1,47,1,,11440,2023-07-28 20:35:03.5483623,FileCreate,Directory,11440,Z:\usn-recons\$J
+New folder,,51,1,47,1,,11520,2023-07-28 20:35:03.5483623,FileCreate|Close,Directory,11520,Z:\usn-recons\$J
+New folder,,51,1,47,1,,11600,2023-07-28 20:35:07.2438360,RenameOldName,Directory,11600,Z:\usn-recons\$J
+folder3,,51,1,47,1,,11680,2023-07-28 20:35:07.2438360,RenameNewName,Directory,11680,Z:\usn-recons\$J
+folder3,,51,1,47,1,,11760,2023-07-28 20:35:07.2438360,RenameNewName|Close,Directory,11760,Z:\usn-recons\$J
+folder3,,51,1,47,1,,11840,2023-07-28 20:35:07.3769779,ObjectIdChange,Directory,11840,Z:\usn-recons\$J
+folder3,,51,1,47,1,,11920,2023-07-28 20:35:07.3769779,ObjectIdChange|Close,Directory,11920,Z:\usn-recons\$J
+New Text Document.txt,.txt,52,1,51,1,,12000,2023-07-28 20:35:13.0258586,FileCreate,Archive,12000,Z:\usn-recons\$J
+New Text Document.txt,.txt,52,1,51,1,,12104,2023-07-28 20:35:13.0258586,FileCreate|Close,Archive,12104,Z:\usn-recons\$J
+New Text Document.txt,.txt,52,1,51,1,,12288,2023-07-28 20:35:18.3401247,RenameOldName,Archive,12288,Z:\usn-recons\$J
+text1.txt,.txt,52,1,51,1,,12392,2023-07-28 20:35:18.3401247,RenameNewName,Archive,12392,Z:\usn-recons\$J
+text1.txt,.txt,52,1,51,1,,12472,2023-07-28 20:35:18.3401247,RenameNewName|Close,Archive,12472,Z:\usn-recons\$J
+text1.txt,.txt,52,1,51,1,,12552,2023-07-28 20:35:18.4934867,ObjectIdChange,Archive,12552,Z:\usn-recons\$J
+text1.txt,.txt,52,1,51,1,,12632,2023-07-28 20:35:18.4934867,ObjectIdChange|Close,Archive,12632,Z:\usn-recons\$J
+New Text Document.txt,.txt,53,1,51,1,,12712,2023-07-28 20:35:21.6616931,FileCreate,Archive,12712,Z:\usn-recons\$J
+New Text Document.txt,.txt,53,1,51,1,,12816,2023-07-28 20:35:21.6616931,FileCreate|Close,Archive,12816,Z:\usn-recons\$J
+New Text Document.txt,.txt,53,1,51,1,,12920,2023-07-28 20:35:25.4767249,RenameOldName,Archive,12920,Z:\usn-recons\$J
+text2.txt,.txt,53,1,51,1,,13024,2023-07-28 20:35:25.4767249,RenameNewName,Archive,13024,Z:\usn-recons\$J
+text2.txt,.txt,53,1,51,1,,13104,2023-07-28 20:35:25.4767249,RenameNewName|Close,Archive,13104,Z:\usn-recons\$J
+text2.txt,.txt,53,1,51,1,,13184,2023-07-28 20:35:25.5802500,ObjectIdChange,Archive,13184,Z:\usn-recons\$J
+text2.txt,.txt,53,1,51,1,,13264,2023-07-28 20:35:25.5802500,ObjectIdChange|Close,Archive,13264,Z:\usn-recons\$J
+New Text Document.txt,.txt,54,1,51,1,,13344,2023-07-28 20:35:28.8661046,FileCreate,Archive,13344,Z:\usn-recons\$J
+New Text Document.txt,.txt,54,1,51,1,,13448,2023-07-28 20:35:28.8661046,FileCreate|Close,Archive,13448,Z:\usn-recons\$J
+New Text Document.txt,.txt,54,1,51,1,,13552,2023-07-28 20:35:32.4455245,RenameOldName,Archive,13552,Z:\usn-recons\$J
+text3.txt,.txt,54,1,51,1,,13656,2023-07-28 20:35:32.4455245,RenameNewName,Archive,13656,Z:\usn-recons\$J
+text3.txt,.txt,54,1,51,1,,13736,2023-07-28 20:35:32.4455245,RenameNewName|Close,Archive,13736,Z:\usn-recons\$J
+text3.txt,.txt,54,1,51,1,,13816,2023-07-28 20:35:32.5481160,ObjectIdChange,Archive,13816,Z:\usn-recons\$J
+text3.txt,.txt,54,1,51,1,,13896,2023-07-28 20:35:32.5481160,ObjectIdChange|Close,Archive,13896,Z:\usn-recons\$J
+folder4,,55,1,51,1,,13897,2023-07-28 20:35:07.3769779,ObjectIdChange|Close,Directory,11920,Z:\usn-recons\$J
+folder5,,56,1,90,1,,13898,2023-07-28 20:35:07.3769779,ObjectIdChange|Close,Directory,11920,Z:\usn-recons\$J
+folder6,,70,1,56,1,,13899,2023-07-28 20:35:07.3769779,ObjectIdChange|Close,Directory,11920,Z:\usn-recons\$J
+folder7,,65,1,90,1,,13900,2023-07-28 20:35:07.3769779,ObjectIdChange|Close,Directory,11920,Z:\usn-recons\$J
+Folder7(2),,65,1,80,1,,13910,2023-07-28 20:35:07.3769779,ObjectIdChange|Close,Directory,11920,Z:\usn-recons\$J
+Folder8,,66,1,80,1,,13911,2023-07-28 20:35:07.3769779,ObjectIdChange|Close,Directory,11920,Z:\usn-recons\$J
