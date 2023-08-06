@@ -27,7 +27,7 @@ $ python3 del.py -t 1 -f mftecmd.csv
 ```
 parent reference:
 ```
-$ python3 del.py -t 1 -f ../mftecmd.csv -p 47 1
+$ python3 del.py -t 1 -f mftecmd.csv -p 47 1
 PATH: .\folder1\folder2
 
 folder2 (id: 47, seq: 1)
@@ -38,7 +38,7 @@ folder2 (id: 47, seq: 1)
 ```
 recursive:
 ```
-$ python3 del.py -t 1 -f ../mftecmd.csv -p 47 1 -r
+$ python3 del.py -t 1 -f mftecmd.csv -p 47 1 -r
 PATH: .\folder1\folder2
 
 folder2 (id: 47, seq: 1)
@@ -53,7 +53,7 @@ folder2 (id: 47, seq: 1)
 ```
 verbose:
 ```
-$ python3 del.py -t 1 -f ../mftecmd.csv -p 47 1 -r -v
+$ python3 del.py -t 1 -f mftecmd.csv -p 47 1 -r -v
 PATH: .\folder1\folder2
 
 folder2 (id: 47, seq: 1) Directory, 9464, ObjectIdChange|Close
@@ -73,8 +73,8 @@ usage: del.py [-h] -t {1,2,3} -f FILE [-p NUM NUM] [-r] [-v]
 
 options:
   -h, --help  show this help message and exit
-  -t {1,2,3}  tool used for parsing USN Journal (1 = MFTECmd, 2 = UsnJrnl2Csv(dump everything), 3 = ntfs_parse)
-  -f FILE     parsed USN Journal (CSV file)
+  -t {1,2,3}  tool used for parsing (1 = MFTECmd, 2 = UsnJrnl2Csv(dump everything), 3 = ntfs_parse)
+  -f FILE     parsed file (CSV)
   -p NUM NUM  parent refrence (-p [ParentId] [ParentSeq])
   -r          recursive
   -v          verbose
