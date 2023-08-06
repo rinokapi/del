@@ -155,7 +155,7 @@ def print_tree_recursive(parent, verbose, indent=''):
                     child = child, parent[0]
                     print_tree_recursive(child, False, indent + '   ')
 
-#print all parent
+#print all root parent
 def print_parent_all(recursive, verbose):
     for parent in parent_dict:
         find_root(parent)
@@ -180,7 +180,7 @@ def print_parent(parent, recursive, verbose):
     else:
         print(f'{parent} is invalid') #not in record, empty folder, and file mark as 'invalid'
 
-#print parent path
+#print path
 def print_path(parent):
     find_root(parent)
     path = []
