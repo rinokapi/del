@@ -203,7 +203,7 @@ def parse_args(argument_string):
     parser = argparse.ArgumentParser()
 
     parser.add_argument('-t',
-        help='tool used for parsing USN Journal (1 = MFTECmd, 2 = UsnJrnl2Csv(dump everything), 3 = ntfs_parse)',
+        help='tool used for parsing (1 = MFTECmd, 2 = UsnJrnl2Csv(dump everything), 3 = ntfs_parse)',
         dest='tool',
         type=int,
         choices=range(1, 4),
