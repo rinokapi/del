@@ -210,7 +210,7 @@ def parse_args(argument_string):
         required=True)
 
     parser.add_argument('-f',
-        help='parsed USN Journal (CSV file)',
+        help='parsed file (CSV)',
         dest='file',
         required=True)
     
