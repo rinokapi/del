@@ -2,7 +2,7 @@ feature:
 - output: last usn
 - recursive
 - verbose: attribute, usn, reason
-- hardlink
+- hard link
 - full path
 - sorted
 
