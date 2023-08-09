@@ -187,10 +187,10 @@ def print_path(parent):
     if len(visited_node) > 0:
         visited_node.reverse()
         for i in range(len(visited_node)):
-            if visited_node[i] == ('5','5'):
-                name = entry_dict[('5','5'), ('5','5')][0]
-            elif visited_node[i] not in child_dict:
+            if visited_node[i] not in child_dict:
                 name = visited_node[i]
+            elif visited_node[i] == ('5','5'):
+                name = entry_dict[('5','5'), ('5','5')][0]
             else:
                 name = entry_dict[visited_node[i], visited_node[i-1]][0]
             path.append(str(name))
