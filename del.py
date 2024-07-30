@@ -7,7 +7,7 @@ parent_dict = {}
 entry_dict = {}
 child_dict = {}
 
-def process_csv(file, tool, verbose):
+def process_csv(file, tool, info):
     if tool == 1:
         delimiter = ','
         ParentIdCol = 4
@@ -64,7 +64,7 @@ def process_csv(file, tool, verbose):
                 parent_dict[parent_ref] = {entry_ref}
         
         #assign child-details to entry_dict
-        if verbose:
+        if info:
             if (entry_ref, parent_ref) in entry_dict:
                 current_usn = entry_dict[entry_ref, parent_ref][1]
                 if usn > current_usn: #get last USN
@@ -98,8 +98,8 @@ def find_root(parent):
             root_node.append(parent)
         
 #print tree one level depth
-def print_tree(parent, verbose):
-    if verbose:
+def print_tree(parent, info):
+    if info:
         if parent not in entry_dict:
             print(f'(id: {parent[0]}, seq: {parent[1]})')
             children = sorted(parent_dict[parent])
@@ -123,8 +123,8 @@ def print_tree(parent, verbose):
                 print(f'   {entry_dict[child, parent[0]][0]} (id: {child[0]}, seq: {child[1]})')
 
 #print tree recursively
-def print_tree_recursive(parent, verbose, indent=''):
-    if verbose:
+def print_tree_recursive(parent, info, indent=''):
+    if info:
         if parent not in entry_dict:
             print(f'{indent}(id: {parent[0]}, seq: {parent[1]})')
             if parent in parent_dict:
@@ -156,27 +156,27 @@ def print_tree_recursive(parent, verbose, indent=''):
                     print_tree_recursive(child, False, indent + '   ')
 
 #print all root parent
-def print_parent_all(recursive, verbose):
+def print_parent_all(recursive, info):
     for parent in parent_dict:
         find_root(parent)
     for parent in root_node:
         if parent in child_dict:
             parent = parent, child_dict[parent]
         if recursive:
-            print_tree_recursive(parent, verbose)
+            print_tree_recursive(parent, info)
         else:
-            print_tree(parent, verbose)
+            print_tree(parent, info)
 
 #print one parent
-def print_parent(parent, recursive, verbose):
+def print_parent(parent, recursive, info):
     if parent in parent_dict:
         print_path(parent)
         if parent in child_dict:
             parent = parent, child_dict[parent]
         if recursive:
-            print_tree_recursive(parent, verbose)
+            print_tree_recursive(parent, info)
         else:
-            print_tree(parent, verbose)
+            print_tree(parent, info)
     else:
         print(f'{parent} is invalid') #not in record, empty folder, and file mark as 'invalid'
 
@@ -223,8 +223,8 @@ def parse_args(argument_string):
         help='recursive',
         action='store_true')
 
-    parser.add_argument('-v',
-        help='verbose',
+    parser.add_argument('-i',
+        help='info',
         action='store_true')
 
     return parser.parse_args(argument_string)
@@ -236,12 +236,12 @@ if __name__ == '__main__':
     file = args.file
     tool = args.tool
     recursive = args.r
-    verbose = args.v
+    info = args.i
 
-    process_csv(file, tool, verbose)
+    process_csv(file, tool, info)
 
     if args.num:
         parent = tuple(args.num)
-        print_parent(parent, recursive, verbose)
+        print_parent(parent, recursive, info)
     else:
-        print_parent_all(recursive, verbose)
+        print_parent_all(recursive, info)
