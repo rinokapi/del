@@ -1,7 +1,7 @@
 feature:
 - output: last usn
 - recursive
-- verbose: attribute, usn, reason
+- info: attribute, usn, reason
 - hard link
 - full path
 - sorted
@@ -51,9 +51,9 @@ folder2 (id: 47, seq: 1)
       text3.txt (id: 54, seq: 1)
       folder4 (id: 55, seq: 1)
 ```
-verbose:
+info:
 ```
-$ python3 del.py -t 1 -f mftecmd.csv -p 47 1 -r -v
+$ python3 del.py -t 1 -f mftecmd.csv -p 47 1 -r -i
 PATH: .\folder1\folder2
 
 folder2 (id: 47, seq: 1) Directory, 9464, ObjectIdChange|Close
@@ -69,7 +69,7 @@ folder2 (id: 47, seq: 1) Directory, 9464, ObjectIdChange|Close
 options:
 ```
 $ python3 del.py -h
-usage: del.py [-h] -t {1,2,3} -f FILE [-p NUM NUM] [-r] [-v]
+usage: del.py [-h] -t {1,2,3} -f FILE [-p NUM NUM] [-r] [-i]
 
 options:
   -h, --help  show this help message and exit
@@ -77,5 +77,5 @@ options:
   -f FILE     parsed file (CSV)
   -p NUM NUM  parent refrence (-p [ParentId] [ParentSeq])
   -r          recursive
-  -v          verbose
+  -i          info
 ```
